@@ -14,10 +14,16 @@ pip3 install -r requirements.txt
 
 ​    [Wider Facial Landmarks in-the-wild (WFLW)](https://wywu.github.io/projects/LAB/WFLW.html) is a new proposed face dataset. It contains 10000 faces (7500 for training and 2500 for testing)  with 98 fully manual annotated landmarks.
 
+一、数据集下载方法一
 1. WFLW Training and Testing images [[Google Drive](https://drive.google.com/file/d/1hzBd48JIdWTJSsATBEB_eFVvPL1bx6UC/view?usp=sharing)] [[Baidu Drive](https://pan.baidu.com/s/1paoOpusuyafHY154lqXYrA)]
 2. WFLW  [Face Annotations](https://wywu.github.io/projects/LAB/support/WFLW_annotations.tar.gz)
 3. Unzip above two packages and put them on `./data/WFLW/`
 4. move `Mirror98.txt` to `WFLW/WFLW_annotations`
+
+二、数据集下载方法二
+1. 你也可以在我的百度网盘进行下载，链接: https://pan.baidu.com/s/1PPCO29n2YbI1zo63_m2p7g?pwd=qwer 提取码: qwer,
+2. 下载好后直接替换代码中的data文件夹，运行SetPreparation.py，解析数据集顺序即可。
+3. 运行train.py文件，即可开始训练。
 
 ~~~shell
 $ cd data 
